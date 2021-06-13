@@ -1,101 +1,110 @@
-                                $bg-header: white;
-                                $header-height: 56px;
-                                $max-width: 1280px;
-                                $layout-padding: 1rem;
-                                $border-width: 1px;
-                                $radius:5px;
-                                $height: 56px;
-                                $lh-base :1.5;
-                                $fs-base: 1rem;
-min-height: calc(100vh - var(--header-height));                                
+$bg-header: white;
+$header-height: 56px;
+$max-width: 1280px;
+$layout-padding: 1rem;
+$border-width: 1px;
+$radius:5px;
+$height: 56px;
+$lh-base :1.5;
+$fs-base: 1rem;
+$min-height: calc(100vh - $header-height);
 header {
-                                    height: $height;
-                                    background-color: white;
-                                    box-shadow: 0 1px 1px #0000001a;
-                                    position: fixed;
-                                    top: 0px;
-                                    left: 0px;
-                                    right: 0px;
-                                }
-                                
-                                body {
-                                    padding-top: 56px;
-                                    background-color: #EEF0F1;
-                                }
-                                
-                                a.blue-button:hover {
-                                    background-color: #323ebe;
-                                    color: #f9fafa;
-                                    box-shadow: 0 2px 5px;
-                                }
-                                
-                                a.btn {
-                                    text-decoration: none;
-                                }
-                                
-                                a.blue-button {
-                                    background-color: #3846D5;
-                                    color: #f9fafa;
-                                    box-shadow: 0 1px 3px;
-                                    border: #00000000;
-                                }
-                                
-                                header>nav>div.container>div.navbar-header.d-flex.align-items-center>button a.site-logo div.div-nav-form div.navbar-collapse>ul.nav.navbar-nav>li>a {
-                                    text-decoration: none;
-                                }
-                                
-                                a.login-button {
-                                    color: #3a47df;
-                                }
-                                
-                                a.login-button:hover {
-                                    background-color: #00000009;
-                                    border-color: #00000000;
-                                    box-shadow: none;
-                                    color: #323ebe;
-                                    z-index: 1;
-                                }
-                                
-                                .input-search:focus,
-                                .input-search:active {
-                                    background-color: rgb(255 255 255);
-                                    border-color: rgb(59 73 223);
-                                    box-shadow: 1px 1px 0 #3b49df;
-                                }
-                                
-                                .div-nav-form {
-                                    max-width: 420px;
-                                    flex: 1 auto;
-                                }
-                                
-                                nav.navbar {
-                                    max-width: $max-width;
-                                    padding: 0 $layout-padding;
-                                    margin: auto;
-                                    display: flex;
-                                    align-items: center;
-                                    position: relative;
-                                    height: $header-height;
-                                }
-                                
-                                .div-nav-form {
-                                    flex: 1 auto;
-                                    margin: 0 1rem;
-                                    display: block;
-                                }
-                                
-                                .input-search {
-                                    padding: calc(0.5em - $border-width) 0.5em;
-                                    background-color: #f9fafa;
-                                    line-height: $lh-base;
-                                    font-size: $fs-base;
-                                    width: 100%;
-                                    resize: vertical;
-                                }
-                                
-                                .crayons-header--search {
-                                    max-width: 420px;
-                                    flex: 1 auto;
-                                    margin: 0 0.5rem;
-                                    display: block;
-                                }
+    height: $height;
+    background-color: white;
+    box-shadow: 0 1px 1px #0000001a;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+body {
+    padding-top: 56px;
+    background-color: #EEF0F1;
+}
+
+a.blue-button:hover {
+    background-color: #323ebe;
+    color: #f9fafa;
+    box-shadow: 0 2px 5px;
+}
+
+a.btn {
+    text-decoration: none;
+}
+
+a.blue-button {
+    background-color: #3846D5;
+    color: #f9fafa;
+    box-shadow: 0 1px 3px;
+    border: #00000000;
+}
+
+header>nav>div.container>div.navbar-header.d-flex.align-items-center>button a.site-logo div.div-nav-form div.navbar-collapse>ul.nav.navbar-nav>li>a {
+    text-decoration: none;
+}
+
+a.login-button {
+    color: #3a47df;
+}
+
+a.login-button:hover {
+    background-color: #00000009;
+    border-color: #00000000;
+    box-shadow: none;
+    color: #323ebe;
+    z-index: 1;
+}
+
+.input-search:focus,
+.input-search:active {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(59, 73, 223);
+    box-shadow: 1px 1px 0 #3b49df;
+}
+
+.div-nav-form {
+    max-width: 420px;
+    flex: 1 auto;
+}
+
+nav.navbar {
+    max-width: $max-width;
+    padding: 0 $layout-padding;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: $header-height;
+}
+
+.navbar-header {
+    align-items: center;
+    display: flex;
+}
+
+.div-nav-form {
+    flex: 1 auto;
+    margin: 0 1rem;
+    display: block;
+}
+
+.input-search {
+    padding: 8px 7px;
+    background-color: #f9fafa;
+    line-height: $lh-base;
+    font-size: $fs-base;
+    width: 100%;
+    resize: vertical;
+}
+
+div.navbar-header {
+    width: 100%;
+}
+
+.crayons-header--search {
+    max-width: 420px;
+    flex: 1 auto;
+    margin: 0 0.5rem;
+    display: block;
+}

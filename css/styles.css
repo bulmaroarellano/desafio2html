@@ -79,6 +79,15 @@ nav.navbar {
   height: 56px;
 }
 
+.navbar-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .div-nav-form {
   -webkit-box-flex: 1;
       -ms-flex: 1 auto;
@@ -88,12 +97,16 @@ nav.navbar {
 }
 
 .input-search {
-  padding: calc(0.5em - $border-width) 0.5em;
+  padding: 8px 7px;
   background-color: #f9fafa;
   line-height: 1.5;
   font-size: 1rem;
   width: 100%;
   resize: vertical;
+}
+
+div.navbar-header {
+  width: 100%;
 }
 
 .crayons-header--search {
