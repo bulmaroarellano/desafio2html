@@ -16,7 +16,7 @@
 
 <body class="vh-100" style="padding-top: 56px">
 
-
+    <!-- Starts header-->
     <nav class="header navbar navbar-expand-lg navbar-light bg-white py-0">
         <div class="container  flex-nowrap flex-md-wrap flex-lg-wrap ">
             <button class="navbar-toggler d-sm-none d-md-none d-lg-none  order-sm-start m-auto p-2 border-0" type="button" data-toggle="collapse" data-target="#navbar-list-3" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,22 +39,29 @@
             </div>
         </div>
     </nav>
-
+    <!-- Finish header-->
 
 
     <main class="page-content">
         <div class="container">
-            <div class="row py-2">
-                <div class="col-sm-4 col-lg-3">
+            <div class="row py-3 ">
+                <!-- Left sidebar -->
+                <div class="col-md-4 col-lg-3">
 
-                    <aside class="sidebar-wrapper sidebar-wrapper-left crayons-layout__sidebar-left">
-                        <div class="card">
+                    <aside class="sidebar-wrapper sidebar-wrapper-left crayons-layout__sidebar-left vh-100">
+                        <div class="card card-login border-0">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">
+                                    <a href="/">DEV Community</a> is a community of 636,189 amazing developers
+
+                                </h5>
                                 <p class="card-text">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <a class="btn blue-button w-100 mb-2" href="#">Create account</a>
+
+                                <a class="btn btn-login login-button w-100" href="#">Log In</a>
+                                <a href="" class="btn btn-search d-md-none d-lg-none"><i class="bi bi-search"></i></a>
                             </div>
                         </div>
                         <nav class="nav flex-column nav-left-uno mt-3 mb-4">
@@ -298,32 +305,51 @@
                             </nav>
                         </nav>
                         <span class="tags-title p-2 m-0">Popular tags</span>
-                        <ul class="nav flex-column flex-nowrap nav-default-tags vh-10 border-0 m-0 mb-4 p-0">
+                        <ul class="nav flex-column flex-nowrap nav-default-tags  border-0 m-0 mb-4 p-0">
 
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 1<span class="btn btn-primary  follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 2<span class="btn btn-primary  follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 3<span class="btn btn-primary  follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 4<span class="btn btn-primary  follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 5<span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 6<span class="btn btn-primary   follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 7<span class="btn btn-primary  follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 8<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#javascript<span class="btn btn-primary  follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#webdev<span class="btn btn-primary  follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#beginners<span class="btn btn-primary  follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#react<span class="btn btn-primary  follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#tutorial<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#programming<span class="btn btn-primary   follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#python<span class="btn btn-primary  follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#css<span class="btn btn-primary follow-tag">Follow</span></a>
                             <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 9<span class="btn btn-primary   follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 10 <span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 11<span class="btn btn-primary  follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 12<span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 13<span class="btn btn-primary   follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 14<span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 15<span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 16<span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 17<span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 18<span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 19<span class="btn btn-primary follow-tag">Follow</span></a>
-                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#Item 20<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#productivity<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#devops<span class="btn btn-primary  follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#html<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#codenewbie<span class="btn btn-primary   follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#discuss<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#node<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#aws<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#career<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#java<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#github<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#typescript<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#opensource<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#docker<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#testing<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#php<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#showdev<span class="btn btn-primary follow-tag">Follow</span></a>
+                            <a href="" class="list-group-item d-flex justify-content-between align-items-center border-0 m-0 p-2">#angular<span class="btn btn-primary follow-tag">Follow</span></a>
 
                         </ul>
+                        <div class="card border-0">
+                            <a href="#"> <img style="margin-top:15px;height:252px;border-radius5px; display: inline-block;
+                                vertical-align: middle;" src="./img/publicity.jpg" alt="" srcset=""></a>
+                            <div class="card-body p-0">
+                                <a href="#" style="text-decoration:none; color:blue; line-height: 21px;text-align:center;">
+                                    <h5 class="text-center"> Get Your Stickers! </h5>
+                                </a>
+                            </div>
+                        </div>
                     </aside>
                 </div>
+                <!--End left sidebar-->
+                <div class="col-md-8 col-lg-6"></div>
+                <div class="col-md-4 col-lg-3"></div>
+
             </div>
         </div>
     </main>

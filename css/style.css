@@ -17,6 +17,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  min-height: calc(100vh - $header-height);
 }
 
 .header {
@@ -41,6 +42,7 @@ body {
 
 a {
   color: #202428;
+  font-weight: 700;
 }
 a.login-button {
   color: #3a47df;
@@ -97,7 +99,8 @@ span.tags-title {
 }
 
 ul.nav-default-tags {
-  height: 200px;
+  height: 100%;
+  max-height: 42vh;
   overflow-y: scroll;
 }
 ul.nav-default-tags a.list-group-item {
@@ -124,4 +127,15 @@ ul.nav-default-tags a.list-group-item span.follow-tag {
 }
 ul.nav-default-tags a.list-group-item:hover span.follow-tag {
   display: inline-block !important;
+}
+
+.social-nav a svg {
+  fill: #64707d;
+}
+
+.card-login {
+  background-color: #f9fafa;
+  color: #202428;
+  -webkit-box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.05);
+          box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.05);
 }/*# sourceMappingURL=style.css.map */
