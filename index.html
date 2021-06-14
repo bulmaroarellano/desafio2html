@@ -46,9 +46,9 @@
         <div class="container">
             <div class="row py-3 ">
                 <!-- Left sidebar -->
-                <div class="col-md-4 col-lg-3">
+                <div class="col-md-4 col-lg-3 vh-100">
 
-                    <aside class="sidebar-wrapper sidebar-wrapper-left crayons-layout__sidebar-left vh-100">
+                    <aside class="sidebar-wrapper sidebar-wrapper-left">
                         <div class="card card-login border-0">
                             <div class="card-body">
                                 <h5 class="card-title">
@@ -348,8 +348,250 @@
                 </div>
                 <!--End left sidebar-->
                 <div class="col-md-8 col-lg-6"></div>
-                <div class="col-md-4 col-lg-3"></div>
+                <!--MIKE -->
+                <!-- <aside class="sidebar-right d-sm-block col-md-hidden col-lg-3"> -->
+                <aside class="sidebar-right col-lg-3 d-none d-lg-block">
+                    <!--Columna Changlog-->
+                    <div class="card rounded-lg" style="width: 18rem;" id="changelog">
+                        <div class="card-body m-n2">
+                            <p class="card-text">
+                                <a href="">
+                                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--wamMWszU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://jess.forem.lol/remoteimages/uploads/articles/gr61rcv6d7es2as3hi2t.png" class="rounded mb-2" alt="Imagen_chanlog" width="250rem">
+                                </a>
+                                <p class="m-1">New Forem Changelog Entries!</p>
+                                <a href="" class="changelog-links">→ "Lock Discussions on Posts"</a>
+                                <br>
+                                <a href="" class="changelog-links">→ "Accessibility Enhancements"</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--Columna Listings-->
+                    <div class="card rounded-lg mt-3" style="width: 18rem;" id="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="d-flex justify-content-between border-bottom">
+                                <h5 class="m-3">Listings</h5>
+                                <a class="m-3" href="">See all</a>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Lead Platform / Infrastructure Engineer
+                                <h6 class="card-subtitle m-1 text-muted">jobs</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Course Launch: Competitive Programming - Crack Your Coding Interview
+                                <h6 class="card-subtitle m-1 text-muted">education</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">DEVniverse Notion Template - The content creator's space
+                                <h6 class="card-subtitle m-1 text-muted">products</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Backend Handbook for Ruby on Rails applications
+                                <h6 class="card-subtitle m-1 text-muted">products</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">33 Github projects I have bookmarked any you should
+                                <h6 class="card-subtitle m-1 text-muted">misc</h6>
+                            </li>
+                            <li class="d-flex justify-content-center m-3" role="button" tabindex="0"><b>Create a Listing</b></li>
+                        </ul>
+                    </div>
 
+                    <!--Columna #news-->
+                    <div class="card rounded-lg mt-3" style="width: 18rem;" id="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="d-flex justify-content-between border-bottom" role="button" tabindex="0">
+                                <h5 class="m-3" id="card-header">#news</h5>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">I started a newsletter!
+                                <h6 class="card-subtitle m-1 text-muted">5 comments</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Mining Pi Network - Mobile
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">This week in Flutter #7
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">BugUFO: Get paid to debug or pay someone to debug it for you
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Game Dev Digest -- Issue #98 - Multiplayer, staring shaders and more!
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Columna #help-->
+                    <div class="card rounded-lg mt-3" style="width: 18rem;" id="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="d-flex justify-content-between border-bottom" role="button" tabindex="0">
+                                <h5 class="m-3" id="card-header">#help</h5>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Please ELI5 what Parquet is for, and NOT for
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Columna #discuss-->
+                    <div class="card rounded-lg mt-3" style="width: 18rem;" id="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="d-flex justify-content-between border-bottom" role="button" tabindex="0">
+                                <h5 class="m-3" id="card-header">#discuss</h5>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">IT Toolbox: The series: 2021 Retrospective
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">IT Toolbox: Lessons from Star Wars: Do you work for Darth Sidius?
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">IT Toolbox: Should Open Source Software be Regulated?
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">IT Toolbox: Free (as in libre)
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">IT Toolbox: The Power of Good Feedback
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Columna #explainlikeimfive-->
+                    <div class="card rounded-lg mt-3" style="width: 18rem;" id="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="d-flex justify-content-between border-bottom" role="button" tabindex="0">
+                                <h5 class="m-3" id="card-header">#explainlikeifive</h5>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Please ELI5 what Parquet is for, and NOT for
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Columna #challenge-->
+                    <div class="card rounded-lg mt-3" style="width: 18rem;" id="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="d-flex justify-content-between border-bottom" role="button" tabindex="0">
+                                <h5 class="m-3" id="card-header">#challenge</h5>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Overcoming Top Challenges With In-Sprint Test Automation
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Columna #meta-->
+                    <div class="card rounded-lg mt-3" style="width: 18rem;" id="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="d-flex justify-content-between border-bottom" role="button" tabindex="0">
+                                <h5 class="m-3" id="card-header">#meta</h5>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Exciting time ahead. I joined the Forem🌱 team
+                                <h6 class="card-subtitle m-1 text-muted">20 comments</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Announcing forem.dev
+                                <h6 class="card-subtitle m-1 text-muted">8 comments</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">JSON-LD: What It Is and How DEV Uses It
+                                <h6 class="card-subtitle m-1 text-muted">6 comments</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">DEV.to internal search is... bad?
+                                <h6 class="card-subtitle m-1 text-muted">6 comments</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">May: Forem Twitch Events Roundup 👾
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Columna #watercooler-->
+                    <div class="card rounded-lg mt-3" style="width: 18rem;" id="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="d-flex justify-content-between border-bottom" role="button" tabindex="0">
+                                <h5 class="m-3" id="card-header">#watercooler</h5>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">How technology and programming can benefit workplace safety.
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">Thoughts on Rust Builder Pattern?
+                                <br>
+                                <button type="button" class="btn btn-primary btn-sm p-1 m-1">New</button>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">ALPHA REACT 18 HAS ARRIVED
+                                <h6 class="card-subtitle m-1 text-muted">1 comments</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">WAO: How do you get promoted?
+                                <h6 class="card-subtitle m-1 text-muted">4 comments</h6>
+                            </li>
+                            <li class="list-group-item" role="button" tabindex="0">FAANG is dead 💀, FANMAG was a great idea 💡, but FANIMAGNET has to be how we describe big tech 🤣
+                                <h6 class="card-subtitle m-1 text-muted">4 comments</h6>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Columna trending guides/resources-->
+                    <div class="container">
+                        <div class="row row-cols-1">
+                            <div class="col-12 mt-5 ml-1" role="button" tabindex="0"><b>trending guides/resources</b></div>
+                            <div class="col mt-3 ml-3 p-3" role="button" tabindex="0">33 GitHub projects I have bookmarked and you should</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Why WhatsApp web doesn't work without WhatsApp on your mobile app?</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">50 Python Projects with Source Code</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">How To Install Docker and Docker-Compose On Raspberry Pi</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">30 Free React dashboard templates and themes</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">State Management Battle in React 2021: Hooks, Redux, and Recoil</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">5 projects to master Front End Development</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">4 Best UI Framework For ReactJS</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">15 Free React Templates for Your Next Project</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">🚀10 Trending projects on GitHub for web developers - 11th June 2021</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">7 Useful Github Repos For Developing Your Frontend Projects Faster ⚡️</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">React Hooks + Redux: CRUD example with Axios and Rest API</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">52 responsive snippets to create a website for your project</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">The Complete Guide to Full Stack Ethereum Development</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Understanding Next/Image</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Beautify Your GitHub Profile like a Pro</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">10+ CSS BORDER ANIMATION EXAMPLE</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Upgrading to Django 3.2 and fixing DEFAULT_AUTO_FIELD warnings</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0" id="div-borde">Five Pro Tips to Master Promises in JS</div>
+                        </div>
+                    </div>
+
+                    <!--Columna trending guides/resources-->
+                    <div class="container">
+                        <div class="row row-cols-1">
+                            <div class="col-12 mt-5 ml-1" role="button" tabindex="0"><b>recently queried</b></div>
+                            <div class="col mt-3 ml-3 p-3" role="button" tabindex="0">React Native Radio Button</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">SSH Permission Denied (Publickey)</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">JavaScript Currying</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Button Animation CSS</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Why Does Task Manager Show Multiple Chrome</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Nginx Docker Compose</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">JavaScrpt typeOf</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Best VSCode Themes</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Component Will Unmount</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">16gb vs 32gb</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Stop Node Server</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">URL vs URI</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">GitHub Desktop Linux</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Javascript Array to Object</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Programming Project Ideas</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Canary Deployment</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">CSS Game</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">PHP Array to String</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0">Windows cmd commands</div>
+                            <div class="col ml-3 p-3" role="button" tabindex="0" id="div-borde">Exit Vim</div>
+                        </div>
+                    </div>
+
+                </aside>
             </div>
         </div>
     </main>
