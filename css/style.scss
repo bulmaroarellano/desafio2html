@@ -145,3 +145,100 @@
             color: #202428;
             box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.05);
         }
+
+        /************SECCION DE POSTS****************/
+/* ESTILOS DE BARRA DE NAVEGACION DE POSTS -SECCIÓN CENTRAL*/
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color: rgb(34, 32, 32) !important;
+    font-weight: 100;
+}
+.nav-link:active{
+    border-bottom: 2px solid blue;
+  }
+.nav-link:hover{
+    font-weight: 400;
+    border-radius: 5px;
+    background-color:#dfe4ea;
+    color: #323ebe!important;
+}
+.navbar-nav{
+    text-align: right;
+    margin-right: 15px;
+}
+.bar-header .navbar-toggler{
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 15px;
+    outline: none!important;
+    border: none!important;
+}
+.navbar .dev-to-button{
+   
+    border-radius: 5px;
+    border: 1px solid grey;
+   /* box-shadow: 5px 5px blue;*/
+    padding: 5px 15px 5px 15px;
+}
+@media only screen and (max-width: 991px) {
+    .nav-link:hover{
+        background-color: none;
+    }
+}
+/*FIN DE ESTILOS DE BARRA DE NAVEGACION DE POSTS*/
+
+/***************estilos de las cards********/
+
+.card{
+    .card-body{
+        .card-title{
+            align-items: center;
+        img{
+           
+            border-radius: 100%;
+            margin-right: 1rem;
+        }
+        h6{
+            font-size: 1rem;
+    
+        }
+        p{
+            font-size: .875rem;
+            margin: 0 0;
+        }
+        
+        }
+    }
+
+}
+
+.card{
+    margin-bottom: 8px;
+}
+.card-body a{
+    color: black;
+    text-decoration: none;
+}
+.posts-links a,p,button{
+    color:rgb(100, 112, 125);
+    font-size: .8rem;
+    font-weight: 100;
+}
+.posts-links a:hover{
+        text-decoration: none;
+        text-align: center;
+        background-color: #f1f2f6;
+        color: #323ebe;
+        border-radius: 5px;
+}
+.info-links p{
+    text-align: center;
+}
+.posts-links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+        /**************FIN DE SECCION DE POSTS**********/
