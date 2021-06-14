@@ -1,0 +1,138 @@
+        $height: 56px;
+        $bg-header: white;
+        $header-height: 56px;
+        $max-width: 1280px;
+        $layout-padding: 1rem;
+        $border-width: 1px;
+        $radius:5px;
+        $height: 56px;
+        $lh-base :1.5;
+        $fs-base: 1rem;
+        $min-height: calc(100vh - $header-height);
+        [class^="crayons"],
+        [class^="crayons"]::before,
+        [class^="crayons"]::after,
+        [class^="crayons"] *,
+        [class^="crayons"] ::before,
+        [class^="crayons"] ::after {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #fff;
+        }
+        
+        .header {
+            height: $height;
+            background-color: white;
+            box-shadow: 0 1px 1px #0000001a;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            z-index: 999;
+        }
+        
+        .input-search:focus,
+        .input-search:active {
+            background-color: rgb(255, 255, 255);
+            border-color: rgb(59, 73, 223);
+            box-shadow: 1px 1px 0 #3b49df;
+        }
+        
+        a {
+            color: rgb(32, 36, 40);
+            &.login-button {
+                color: #3a47df;
+            }
+            &.login-button:hover {
+                background-color: #00000009;
+                border-color: #00000000;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                color: #323ebe;
+                z-index: 1;
+            }
+            &.blue-button:hover {
+                background-color: #323ebe;
+                color: #edeeee;
+                -webkit-box-shadow: 0 2px 5px;
+                box-shadow: 0 2px 5px;
+            }
+            &.btn {
+                text-decoration: none;
+            }
+            &.blue-button {
+                color: white;
+                background-color: #3846D5;
+                -webkit-box-shadow: 0 1px 3px;
+                box-shadow: 0 1px 3px;
+                border: #00000000;
+            }
+            &.login-button:hover {
+                background-color: #00000009;
+                border-color: #00000000;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                color: #323ebe;
+                z-index: 1;
+            }
+        }
+        
+        .w-480 {
+            max-width: auto;
+        }
+        
+        .nav-left-uno a {
+            color: #202428;
+            text-decoration: none;
+        }
+        
+        span.tags-title {
+            font-weight: 700;
+        }
+        
+        .nav-left-uno a:hover {
+            background: #08090a0d;
+            color: #323ebe;
+        }
+        
+        ul.nav-default-tags {
+            height: 200px;
+            overflow-y: scroll;
+            a.list-group-item {
+                text-decoration: none;
+                color: #202428;
+                position: 50%;
+                margin: 0;
+                padding: 8px;
+                &:hover {
+                    text-decoration: none;
+                    background-color: #08090a0d;
+                    color: #323ebe;
+                    border-radius: 5px;
+                }
+                span.follow-tag {
+                    display: none;
+                    text-decoration: none;
+                    position: absolute;
+                    right: 5px;
+                    top: 47%;
+                    transform: translateY(-50%);
+                }
+            }
+            a.list-group-item:hover span.follow-tag {
+                display: inline-block !important;
+            }
+        }
+        
+        .social-nav a svg {
+            fill: rgb(100, 112, 125);
+        }

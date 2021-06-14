@@ -1,0 +1,127 @@
+[class^=crayons],
+[class^=crayons]::before,
+[class^=crayons]::after,
+[class^=crayons] *,
+[class^=crayons] ::before,
+[class^=crayons] ::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.header {
+  height: 56px;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 1px #0000001a;
+          box-shadow: 0 1px 1px #0000001a;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+}
+
+.input-search:focus,
+.input-search:active {
+  background-color: white;
+  border-color: #3b49df;
+  -webkit-box-shadow: 1px 1px 0 #3b49df;
+          box-shadow: 1px 1px 0 #3b49df;
+}
+
+a {
+  color: #202428;
+}
+a.login-button {
+  color: #3a47df;
+}
+a.login-button:hover {
+  background-color: #00000009;
+  border-color: #00000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #323ebe;
+  z-index: 1;
+}
+a.blue-button:hover {
+  background-color: #323ebe;
+  color: #edeeee;
+  -webkit-box-shadow: 0 2px 5px;
+  box-shadow: 0 2px 5px;
+}
+a.btn {
+  text-decoration: none;
+}
+a.blue-button {
+  color: white;
+  background-color: #3846D5;
+  -webkit-box-shadow: 0 1px 3px;
+  box-shadow: 0 1px 3px;
+  border: #00000000;
+}
+a.login-button:hover {
+  background-color: #00000009;
+  border-color: #00000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #323ebe;
+  z-index: 1;
+}
+
+.w-480 {
+  max-width: auto;
+}
+
+.nav-left-uno a {
+  color: #202428;
+  text-decoration: none;
+}
+
+span.tags-title {
+  font-weight: 700;
+}
+
+.nav-left-uno a:hover {
+  background: #08090a0d;
+  color: #323ebe;
+}
+
+ul.nav-default-tags {
+  height: 200px;
+  overflow-y: scroll;
+}
+ul.nav-default-tags a.list-group-item {
+  text-decoration: none;
+  color: #202428;
+  position: 50%;
+  margin: 0;
+  padding: 8px;
+}
+ul.nav-default-tags a.list-group-item:hover {
+  text-decoration: none;
+  background-color: #08090a0d;
+  color: #323ebe;
+  border-radius: 5px;
+}
+ul.nav-default-tags a.list-group-item span.follow-tag {
+  display: none;
+  text-decoration: none;
+  position: absolute;
+  right: 5px;
+  top: 47%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+ul.nav-default-tags a.list-group-item:hover span.follow-tag {
+  display: inline-block !important;
+}/*# sourceMappingURL=style.css.map */
